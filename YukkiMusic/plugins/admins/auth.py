@@ -12,7 +12,7 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from string.filters import command
+from strings.filters import command
 from YukkiMusic import app
 from YukkiMusic.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
