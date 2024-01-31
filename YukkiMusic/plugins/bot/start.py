@@ -22,6 +22,7 @@ from YukkiMusic import Telegram, YouTube, app
 from YukkiMusic.misc import SUDOERS
 from YukkiMusic.plugins.play.playlist import del_plist_msg
 from YukkiMusic.plugins.sudo.sudoers import sudoers_list
+from YukkiMusic.utils.cmd import commandpro
 from YukkiMusic.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
